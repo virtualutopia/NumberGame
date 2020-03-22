@@ -25,6 +25,10 @@ class Play
                 puts("The answer is lower.")
             end
         end
+        puts '-------------------------------------------'
+        puts '-------------------------------------------'
+        puts "You lost the game."
+        printf("the correct number is %d. \n", @num)
     end
 end
 # MAIN PROGRAM
